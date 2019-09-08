@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin: 50px auto;
+  width: 320px;
+  height: 320px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  float: left;
+  cursor: pointer;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+.cell:hover {
+  background-color: aliceblue;
+}
+
+#cell0,
+#cell1,
+#cell2,
+#cell3,
+#cell4,
+#cell5 {
+  border-bottom: 5px solid black;
+}
+
+#cell1,
+#cell2,
+#cell4,
+#cell5,
+#cell7,
+#cell8 {
+  border-left: 5px solid black;
+}
+
+.winner {
+  color: crimson;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background: crimson;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
