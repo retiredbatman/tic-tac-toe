@@ -68,6 +68,7 @@ export default () => {
       <div className="container">
         {flatBoard().map((b, index) => (
           <div
+            key={index}
             className={`cell ${winningSeq.includes(index) ? "winner" : ""}`}
             id={`cell${index}`}
             onClick={() => canClick && handleClick(index)}
